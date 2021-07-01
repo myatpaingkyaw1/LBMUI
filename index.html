@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Library Management</title>
+
+	<link rel="icon" type="text/css" href="images/favicon.ico">
+
+	<script src="https://kit.fontawesome.com/3421b77599.js" crossorigin="anonymous"></script>
+
+	<!-- Table -->
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+	<script>
+		$(document).ready( function () {
+    		$('#table_index').DataTable();
+		} );
+	</script>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div class="sidebar">
+		<div class="logo">
+			<a href="#" class="simple-text logo-normal">
+				Library MGM
+			</a>
+		</div>
+		<div class="sidebar-wrappper">
+			<ul class="nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">
+						<i class="sidebar-icon fas fa-user">
+							
+						</i> 
+						Admin
+					</a>		
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="sidebar-icon fas fa-users">
+							
+						</i>
+						Member
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="sidebar-icon fas fa-list">
+							
+						</i>
+						Category
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="sidebar-icon fas fa-pencil-alt">
+							
+						</i>
+						Author
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="sidebar-icon fas fa-book"></i>
+						Books
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="sidebar-icon fas fa-redo-alt"></i>
+						Borrow
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="sidebar-icon fas fa-undo"></i>
+						Return
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<section id="header">
+		<h1 class="header-heading">Manage Admin</h1>
+		<a class="add-new" href="admin-register.html"><i class="navbar-icon fas fa-plus"></i> Add New</a>
+	</section>
+
+	<!-- <section id="search-bar">
+		<input type="search" name="name" id="name" placeholder="Name">
+		<button>Search</button>
+	</section> -->
+
+	<section id="table">
+		<table id="table_index" class="display" cellspacing="0" width="100%">
+		    <thead>
+		        <tr>
+		            <th>First Name</th>
+		            <th>Last Name</th>
+		            <th>Email</th>
+		            <th>Address</th>
+		            <th>Phone Number</th>
+		            <th>Status</th>
+
+		        </tr>
+		    </thead>
+		    <tbody>
+		        <tr>
+		            <td>Aung</td>
+		            <td>Aung</td>
+		            <td>aungaung@gmail.com</td>
+		            <td>YGN</td>
+		            <td>+9594532235</td>
+		            <td><a href="">Edit</a> <a href="">Delete</a></td>
+		            
+		        </tr>
+		        <tr>
+		            <td>James</td>
+		            <td>Thomas</td>
+		            <td>jamesthomas@gmail.com</td>
+		            <td>Calofonia</td>
+		            <td>+8732523623</td>
+		            <td><a href="">Edit</a> <a href="">Delete</a></td>
+		            
+		        </tr>
+
+		    </tbody>
+		</table>
+	</section>
+	<!-- <div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+        <h1>Manage Admin</h1>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="navbar-icon fas fa-plus"></i>Add new</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+	</div> -->
+</body>
+</html>

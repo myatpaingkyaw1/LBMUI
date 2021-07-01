@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Register</title>
+
+	<link rel="icon" type="text/css" href="images/favicon.ico">
+
+
+	<script src="https://kit.fontawesome.com/3421b77599.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div class="sidebar">
+		<div class="logo">
+			<a href="#" class="simple-text logo-normal">
+				Library MGM
+			</a>
+		</div>
+		<div class="sidebar-wrappper">
+			<ul class="nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="admin.html">
+						<i class="sidebar-icon fas fa-user">
+							
+						</i> 
+						Admin
+					</a>		
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="member.html">
+						<i class="sidebar-icon fas fa-users">
+							
+						</i>
+						Member
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="category.html">
+						<i class="sidebar-icon fas fa-list">
+							
+						</i>
+						Category
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="author.html">
+						<i class="sidebar-icon fas fa-pencil-alt">
+							
+						</i>
+						Author
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="books.html">
+						<i class="sidebar-icon fas fa-book"></i>
+						Books
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="sidebar-icon fas fa-redo-alt"></i>
+						Borrow
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="sidebar-icon fas fa-undo"></i>
+						Return
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="container">
+		<h1 class="header">Admin Register</h1>
+		<form class="admin-form" autocomplete="off">
+			<div class="row">
+				<div class="col-lg-2">
+					<label for="fname">First Name:</label>
+				</div>
+				<div class="col-10">
+					<input type="text" id="fname" name="first-name" required>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-2">
+					<label for="lname">Last Name:</label>
+				</div>
+				<div class="col-lg-10">
+					<input type="text" id="lname" name="last-name">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-2">
+					<label for="birthdate">Date Of Birth</label>
+				</div>
+				<div class="col-lg-10">
+					<input type="date" id="birthdate" name="birthdate">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-2">
+					<label for="email">Email:</label>
+				</div>
+				<div class="col-lg-10">
+					<input type="email" id="email" name="email">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-2">
+					<label for="city">City:</label>
+				</div>
+				<div class="col-lg-10">
+					<select id="city" name="city">
+						<option value="yangon">Yangon</option>
+						<option value="mandalay">Mandalay</option>
+						<option value="taunggyi">Taung Gyi</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-2">
+					<label for="pnumber">Phone:</label>
+				</div>
+				<div class="col-lg-10">
+					<input type="tel" id="pnumber" name="pnumber" maxlength="13" placeholder="+95">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-2">
+					<label for="address">Address:</label>
+				</div>
+				<div class="col-lg-10">
+					<textarea id="address" name="address" maxlength="50" style="height:80px;"></textarea>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="button-container">
+					<button  type="button" class="submit btn btn-success"><i class="fas fa-save"></i> Submit</button>
+					<button  type="button" class="cancel btn btn-danger"><i class="fas fa-trash"></i> Cancel</button>
+				</div>
+			</div>
+
+		</form>
+	</div>
+</body>
+</html>
