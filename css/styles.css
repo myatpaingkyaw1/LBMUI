@@ -1,0 +1,218 @@
+body {
+	margin: 0;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	
+	
+}
+
+.logo a {
+	color: #a9afbbd1;
+  	text-decoration: none;
+  	background-color: transparent;
+  	
+}
+
+.logo a:hover {
+  	text-decoration: underline;
+}
+
+
+.sidebar {
+	margin: 0;
+	padding: 0;
+	width: 260px;
+	background-color: rgba(0,0,0,0.8);
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+
+}
+
+.logo {
+	padding: 15px 0;
+	margin: 0;
+	display: block;
+	position: relative;
+
+}
+
+.simple-text {
+	text-transform: uppercase;
+	padding: 5px 0px;
+	display: inline-block;
+	font-size: 18px;
+	color: #a9afbbd1;
+	white-space: nowrap;
+	font-weight: 300;
+	line-height: 30px;
+	overflow: hidden;
+	text-align: center;
+	display: block;
+}
+
+.logo:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  height: 1px;
+  width: calc(100% - 30px);
+  background-color: rgba(180, 180, 180, 0.1);
+}
+
+
+.sidebar .nav {
+	display: block;
+	padding: 16px;
+}
+
+.sidebar .nav-item {
+	margin-bottom: 28px;
+}
+
+.sidebar .nav-item.active {
+	background-color: #56776c;
+	
+}
+
+.sidebar .nav-item.active .nav-link {
+	color: #fff;
+	
+}
+
+.sidebar .nav-item:hover:not(.active) {
+	background-color: #56776c;
+}
+
+.sidebar .nav-item:hover:not(.active) .nav-link {
+	color: #fff;
+}
+
+.sidebar .nav .nav-item a {
+	color: #5aa897;
+}
+
+.sidebar-icon {
+	width: 40px;
+}
+
+#header {
+	padding: 10px 0 25px 300px;
+
+}
+
+.header-heading{
+	display: inline-block;
+	padding-right: 60%;
+}
+
+.add-new {
+  	text-decoration: none;
+  	background-color: transparent;
+  	
+}
+
+.add-new:hover {
+	text-decoration: underline;
+}
+
+#search-bar {
+	padding-left: 300px;
+}
+
+#table {
+	margin: 50px 50px 0 300px;
+}
+
+		/*Admin Register*/
+
+
+/*.container {
+	margin-right: auto;
+	margin-left:  20.3%;
+	padding: 10px 40px auto 20px;
+	padding: 10px;
+	background-color: #f2f2f2;
+}*/
+
+.container {
+	width: 80%;
+	margin-left: 245px;
+}
+
+.container .header {
+	padding: 11px 0 10px 30px;
+	background-color: #fff;
+	border-bottom: 1px solid #e0e4e8;
+}
+
+.container .admin-form {
+	margin-top: 20px;
+	margin-left: 100px;
+	line-height: 25px;
+}
+
+.col-25 {
+	float: left;
+  	width: 25%;
+  	margin-top: 6px;
+}
+
+.col-75 {
+	float: left;
+  	width: 75%;
+  	margin-top: 6px;
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+select, input[type="date"] {
+	width: 25%;
+  	padding: 10px 10px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+textarea {
+	width: 50%;
+  	padding: 10px 10px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+input[type="text"],[type="email"],[type="tel"] {
+	width: 80%;
+  	padding: 10px 10px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+
+.button-container {
+	margin: 20px 250px 0 250px;
+}
+
+.submit {
+	margin-right: 15px;
+	width: 100px;
+	height: 50px;
+	border-radius: 15px;
+}
+
+.cancel {
+	width: 100px;
+	height: 50px;
+	border-radius: 15px;
+}
